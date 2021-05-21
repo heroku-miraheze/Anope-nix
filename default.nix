@@ -3,7 +3,6 @@ let
 
   bash libmysqlclient autoconf make gcc;
 
-in
 {
   "${componentName}" = stdenv.mkDerivation {
     name = anope;
