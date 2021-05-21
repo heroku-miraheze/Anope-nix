@@ -1,7 +1,7 @@
 { pkgs ? import <nixpkgs> {}}:
 { bash, libmysqlclient, autoconf, make, gcc }:
 {
-  "${componentName}" = stdenv.mkDerivation {
+  stdenv.mkDerivation {
     name = anope;
     version = 2.0.9;
 
