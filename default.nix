@@ -9,7 +9,7 @@ stdenv.mkDerivation rec {
   src = fetchFromGitHub {
     owner = pname;
     repo = pname;
-    sha256 = "d098ac3cd273c7a243fb1e32ce7aa702f09a6ca3d821a4544f72ef4d1f29ec36";
+    sha256 = "0m390gqs5d36f0g6wlgqcp4kzgm4ssn82kz287wmjlibq2adrlz7";
     rev = version;
   };
 
