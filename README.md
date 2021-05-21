@@ -1,2 +1,2 @@
-# nix-repository
-My Nix Repository, here i will contribute Nixpkgs.
+# Anope-nix
+Here will build Anope for NixOS.
