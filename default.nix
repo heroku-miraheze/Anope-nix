@@ -2,9 +2,6 @@
 let
 
   bash libmysqlclient autoconf make gcc;
-  version = 2.0.9;
-  serviceName = "anope";
-  componentName = "${serviceName}";
 
 in
 {
