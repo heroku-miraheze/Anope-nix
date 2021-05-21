@@ -15,6 +15,5 @@
       make
       make install
     '';
-  }
-}
-}
+ }:
+ }
